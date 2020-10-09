@@ -21,23 +21,24 @@ body {
 
 #seconds {
     position: absolute;
-    top: 10%;
+    top: 7%;
     width: 1%;
     height: 45%;
     background-color: red;
     margin-left: 198px;
     margin-top: 20px;
     z-index: 3;
-    transform-origin: 50% 80%;
+    transform-origin: 50% 85%;
     animation: rotate 60s infinite linear;
 }
 
 #minutes {
     position: absolute;
-    top: 8%;
+    top: 10%;
+    right: 49%;
     width: 2%;
-    height: 40%;
-    background-color: black;
+    height: 35%;
+    background-color: rgb(43, 43, 43);
     margin-left: 198px;
     margin-top: 20px;
     z-index: 2;
@@ -47,7 +48,8 @@ body {
 
 #hours {
     position: absolute;
-    top: 13%;
+    top: 11%;
+    right: 49%;
     width: 2.5%;
     height: 20%;
     background-color: black;
